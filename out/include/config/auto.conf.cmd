@@ -1182,6 +1182,7 @@ deps_config := \
 	net/bluetooth/bnep/Kconfig \
 	net/bluetooth/rfcomm/Kconfig \
 	net/bluetooth/Kconfig \
+	drivers/net/can/usb-can-2-module/Kconfig \
 	drivers/net/can/usb/Kconfig \
 	drivers/net/can/spi/Kconfig \
 	drivers/net/can/softing/Kconfig \

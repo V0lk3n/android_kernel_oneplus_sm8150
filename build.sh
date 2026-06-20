@@ -1,5 +1,7 @@
 #!/bin/sh
 # PoC
+cd toolchains/bin || exit 1
+export PATH=$(pwd):$PATH
 while true
 do
     echo
