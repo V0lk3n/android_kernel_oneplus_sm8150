@@ -892,6 +892,7 @@ deps_config := \
 	drivers/net/wireless/st/Kconfig \
 	drivers/net/wireless/rsi/Kconfig \
 	drivers/net/wireless/realtek/rtw88/Kconfig \
+	drivers/net/wireless/realtek/rtl8188eus/Kconfig \
 	drivers/net/wireless/realtek/rtl8812au/Kconfig \
 	drivers/net/wireless/realtek/rtl8xxxu/Kconfig \
 	drivers/net/wireless/realtek/rtlwifi/Kconfig \
