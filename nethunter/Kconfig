@@ -449,7 +449,7 @@ config NETHUNTER_CAN_SUBSYSTEM_SUPPORT
 
 	select	CAN
 
-	select 	CAN_RAW
+	select	CAN_RAW
 
 	select	CAN_BCM
 
@@ -457,7 +457,7 @@ config NETHUNTER_CAN_SUBSYSTEM_SUPPORT
 
 	select	CAN_VCAN
 
-	select	CAN_SLCAN && m
+	select  CAN_SLCAN if m
 
 	select	CAN_DEV
 

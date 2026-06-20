@@ -5,6 +5,7 @@ deps_config := \
 	techpack/data/drivers/Kconfig \
 	techpack/data/Kconfig \
 	techpack/Kconfig \
+	nethunter/Kconfig \
 	lib/fonts/Kconfig \
 	lib/xz/Kconfig \
 	lib/Kconfig \
