@@ -8,7 +8,7 @@ do
     echo "2) Merging SM8150 and OnePlus defconfig"
     echo "3) Make nconfig"
     echo "4) Make Image.gz"
-    echo "5) Make Modules"
+    echo "5) Make modules"
     echo "6) Make All"
     echo "7) Exit"
     echo "================"
@@ -42,7 +42,7 @@ do
             ;;
         5)
             printf "\n\nMake Modules...\n\n"
-            make -j $(nproc --all) ARCH=arm64 O=out CROSS_COMPILE=aarch64-linux-gnu- CROSS_COMPILE_32=arm-linux-gnueabi- LLVM=1 LLVM_IAS=1 AS=llvm-as DTC_EXT=$(pwd)/dtc Modules
+            make -j $(nproc --all) ARCH=arm64 O=out CROSS_COMPILE=aarch64-linux-gnu- CROSS_COMPILE_32=arm-linux-gnueabi- LLVM=1 LLVM_IAS=1 AS=llvm-as DTC_EXT=$(pwd)/dtc modules
             ;;
         6)
             printf "\n\nMake all...\n\n"
