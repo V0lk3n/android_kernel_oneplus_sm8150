@@ -891,6 +891,8 @@ deps_config := \
 	drivers/net/wireless/st/cw1200/Kconfig \
 	drivers/net/wireless/st/Kconfig \
 	drivers/net/wireless/rsi/Kconfig \
+	drivers/net/wireless/realtek/rtw88/Kconfig \
+	drivers/net/wireless/realtek/rtl8812au/Kconfig \
 	drivers/net/wireless/realtek/rtl8xxxu/Kconfig \
 	drivers/net/wireless/realtek/rtlwifi/Kconfig \
 	drivers/net/wireless/realtek/rtl818x/Kconfig \
@@ -1293,7 +1295,7 @@ deps_config := \
 include/config/auto.conf: \
 	$(deps_config)
 
-ifneq "$(KERNELVERSION)" "4.14.357-openela"
+ifneq "$(KERNELVERSION)" "4.14.357-v0lk3n-SM8150_OP7Serie-LOS_23.2"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(ARCH)" "arm64"

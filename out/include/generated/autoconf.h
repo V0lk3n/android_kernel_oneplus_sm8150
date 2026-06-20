@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 4.14.357-openela Kernel Configuration
+ * Linux/arm64 4.14.357-v0lk3n-SM8150_OP7Serie-LOS_23.2 Kernel Configuration
  *
  */
 #define CONFIG_RING_BUFFER 1
@@ -1400,7 +1400,6 @@
 #define CONFIG_IRQ_DOMAIN 1
 #define CONFIG_LSM_MMAP_MIN_ADDR 32768
 #define CONFIG_TRACE_GPU_MEM 1
-#define CONFIG_LOCALVERSION_AUTO 1
 #define CONFIG_INTEGRITY_AUDIT 1
 #define CONFIG_ARCH_HAS_DEBUG_VIRTUAL 1
 #define CONFIG_MEDIA_TUNER_MT20XX 1
@@ -1887,7 +1886,7 @@
 #define CONFIG_USB_F_NCM 1
 #define CONFIG_ARCH_MMAP_RND_COMPAT_BITS 11
 #define CONFIG_NETFILTER_XT_MATCH_STATE 1
-#define CONFIG_QCA_CLD_WLAN_MODULE 1
+#define CONFIG_QCA_CLD_WLAN 1
 #define CONFIG_USB_PD_POLICY 1
 #define CONFIG_MICROCHIP_PHY 1
 #define CONFIG_DRM 1
