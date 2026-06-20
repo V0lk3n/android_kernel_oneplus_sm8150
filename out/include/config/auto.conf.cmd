@@ -901,6 +901,7 @@ deps_config := \
 	drivers/net/wireless/realtek/Kconfig \
 	drivers/net/wireless/ralink/rt2x00/Kconfig \
 	drivers/net/wireless/ralink/Kconfig \
+	drivers/net/wireless/mediatek/mt76/Kconfig \
 	drivers/net/wireless/mediatek/mt7601u/Kconfig \
 	drivers/net/wireless/mediatek/Kconfig \
 	drivers/net/wireless/marvell/mwifiex/Kconfig \

@@ -10,3 +10,6 @@
 [submodule "drivers/net/can/usb-can-2-module"]
 	path = drivers/net/can/usb-can-2-module
 	url = https://github.com/V0lk3n/usb-can-2-module
+[submodule "drivers/net/wireless/mediatek/mt76"]
+	path = drivers/net/wireless/mediatek/mt76
+	url = https://github.com/akabul0us/mt76.git
