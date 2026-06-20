@@ -2,6 +2,7 @@
 # PoC
 cd toolchains/bin || exit 1
 export PATH=$(pwd):$PATH
+cd ../../
 while true
 do
     echo
